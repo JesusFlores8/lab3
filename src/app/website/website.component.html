@@ -1,0 +1,28 @@
+<h1>Lista de Post</h1>
+
+<table class="table table-bordered" >
+
+    <tr>
+        <th>
+            titulo
+        </th>
+        <th>
+
+            body
+        </th>
+
+    </tr>
+    <tr ng *ngFor="let item of posts">
+
+        <td>
+            {{item.titulo}}
+        </td>
+        <td>
+            {{item.cuerpo}}
+        </td>
+        
+    </tr>
+
+
+
+</table>
